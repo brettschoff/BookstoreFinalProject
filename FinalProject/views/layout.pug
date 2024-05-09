@@ -11,13 +11,20 @@ html
       div(class="icons")
         div
           a(href="/" class="icon-color") Sign In
+        div(class="menu-header")
+          button(class="menu-button")
+            a(href="/" class="icon-color") Home
+          button(class="menu-button")
+            a(href="/" class="icon-color") Books
+          button(class="menu-button")
+            a(href="/" class="icon-color") Cart
     div(class="body")
-      div(class="nav")
-        div(class="nav-bar")
-          ul
-            li
-              a(href="/" class="icon-color") Home
-            li
-              a(href="/" class="icon-color") Books
       div(class="content")
         block content
+    div(class="footer")
+      div(class="disclaimer")
+        span &copy 2024 Bookstore.com
+      div(class="contact-info")
+        span The Bookstore
+        br
+        span Tel: 1 (800) The-Book

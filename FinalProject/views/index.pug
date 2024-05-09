@@ -1,4 +1,43 @@
 extends layout
 
 block content
-  
+  div(class="content-body")
+    div(class="about-us")
+      h5 Who are we?
+      p We are TheBookStore.com a fun side project created by 5 amazing Computer Science students from Colorado Technical University.We have designed this website as a final project, it is setup so we can work as in a small agile development team.
+      p The team consists of Carlton Wallen (Development), Josh Thorpe (Development), Lydia Snow (Product Owner/Scrum Master), Warren Scott(Development), and Brett Schoff(Development).
+    div(class="search")
+      input(type="text" size="25" placeholder="Looking for a Book?" class="search-bar")
+      button(class="submit-button") Search books
+    div(class="book-section-title")
+      h4 Recommended Books
+    div(class="lower-half")
+      div(class="recommended-books")
+        div(class="card" style="width: 18rem; height: 20rem;")
+          div(class="card-body")
+            h5(class="card-title") The Shadow of the Gods
+            p(class="card-text") Set in a brand-new, Norse-inspired world, and packed with myth, magic, and vengeance, The Shadow of the Gods begins an epic new fantasy saga from bestselling author John Gwynne.
+            button(class="btn btn-primary") Add to Cart
+        div(class="card" style="width: 18rem; height: 20rem;")
+          div(class="card-body")
+            h5(class="card-title") From Blood and Ash
+            p(class="card-text") Captivating and action-packed, From Blood and Ash is a sexy, addictive, and unexpected fantasy perfect for fans of Sarah J. Maas and Laura Thalassa.
+            button(class="btn btn-primary") Add to Cart
+        div(class="card" style="width: 18rem; height: 20rem;")
+          div(class="card-body")
+            h5(class="card-title") The Keeper of Stars
+            p(class="card-text") Who says you can not rewrite the stars? 1962 Twelve years removed from the summer when she first gave her heart away, Dr. Elizabeth (Ellie) Spencer, Professor of Astronomy at Indiana University, receives a mysterious package that has her asking that very question...
+            button(class="btn btn-primary") Add to Cart
+        div(class="card" style="width: 18rem; height: 20rem;")
+          div(class="card-body")
+            h5(class="card-title") He Who Fights with Monsters
+            p(class="card-text") Jason wakes up in a mysterious world of magic and monsters.It is not easy making the career jump from office-supplies-store middle manager to heroic interdimensional adventurer.
+            button(class="btn btn-primary") Add to Cart
+      div(class="cart")
+        table
+          thead
+            tr
+              th Quick Cart
+          tbody
+            tr
+              td Here is the book names!
